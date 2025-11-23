@@ -18,12 +18,12 @@ public class ArraySearching {
     }
 
     public static boolean isFound(int[] arr, int num) {
-        int index = 0;
-        while (index < arr.length) {
-            if (arr[index] == num) {
+        int i = 0;
+        while (i < arr.length) {
+            if (arr[i] == num) {
                 return true;
             }
-            index++;
+            i++;
         }
         return false;
     }
